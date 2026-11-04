@@ -1,6 +1,7 @@
 // apps/web/src/pages/HomePage.tsx
 import { useEffect, useState } from "react";
 
+
 export default function HomePage() {
   const [apiStatus, setApiStatus] = useState("checking...");
 
