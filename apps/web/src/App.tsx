@@ -1,11 +1,12 @@
 // apps/web/src/App.tsx
 import { useState } from "react";
 import HomePage from "./pages/HomePage";
+import DashboardPage from "./pages/DashboardPage";
 import ApplicantsPage from "./pages/ApplicantsPage";
 import JobsPage from "./pages/JobsPage";
 
 // The menu is built from this list. To add a page, import it above and add it here.
-const pages = { Home: HomePage, Jobs: JobsPage, Applicants: ApplicantsPage };
+const pages = { Home: HomePage, Jobs: JobsPage, Applicants: ApplicantsPage, Dashboard: DashboardPage };
 
 type PageName = keyof typeof pages;
 
